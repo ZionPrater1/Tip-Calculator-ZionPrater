@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tip.css">
+    <title>Tip Calculator</title>
+</head>
+<body id="body">
+    <h1 id="Z.I.P"></h1>
+    <div class="Container">
+    <div class="Input">
+
+        <form id="form">
+            <label for="Bill">Bill Amount:</label>
+           <input type="text" name="Bill" id="Bill" size="35"><br>
+           <label id="lableTipAmount" for="tipAmount">Choose Tip Amount</label>
+
+        <select name="tipAmount" id="tipAmount" form="form">
+            <option value="5%">5%</option>
+            <option value="10%">10%</option>
+            <option value="15%">15%</option>
+            <option value="255%">25%</option>
+            <option value="50%">50%</option>
+        </select>
+
+            <label for="Customers">Number of Customers</label>
+            <input type="text" name="Customers" id="Customers" size="35" />
+            <input id='submit' type="submit" value="Submit!">
+        </form>
+    </div>
+         <div id="output">
+            <h2 id="tipAmount">Tip Amount</h2>
+            <p> / person</p>
+            <h3 id="tipPerPerson">$0.00</h3>
+            <h2 id="total">Total Amount</h2>
+            <h3 id="finalPerPerson">$0.00</h3>
+            <p>/ person</p>
+
+            <button id="reset"> Reset </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="Tip.js"></script>
+</html>
