@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #cd9cdb;
+    font-family: 'Arial', cursive;
+}
+
+#tipAmount{
+    color:black;
+}
+
+#Z.I.P{
+font-size:40px;
+text-align: center;
+margin-top:2rem;
+
+}
+
+.container{
+    background-color:rgb(251, 250, 255);
+    width:60vw;
+    height:60vh;
+    margin-left:20%;
+    margin-top:10%;
+    border-radius:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+.input{
+    background-color:rgb(253, 254, 255);
+    width:300px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#form{
+    margin-top:7rem;
+    margin-left:1.2em;
+    
+    
+}
+
+
+input[type=text], select, textarea{
+    font-family: 'Ariel', cursive;
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: hsl(180, 43%, 88%);
+    color: black;
+    margin-top:2rem;
+    margin-left:20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+
+input[type=select]{
+    font-family: 'Ariel', cursive;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+   
+}
+
+
+
+
+    #form ul li{
+    list-style-type: none;
+
+    }
+
+
+    #output {
+    background-color: hsl(180, 43%, 88%);
+    width:75vw;
+    height:50vh;
+    margin-top:4%;
+    margin-right:-10px;
+    border-radius:20px;
+    margin-left:12rem;
+    font-size: 1.2rem;
+    min-width: 200px;
+ 
+}
+
+#output h2{
+    color:#fff;
+    margin-left:2rem;
+    margin-top:3.5rem;
+}
+
+#output-section > p {
+    color: hsl(180, 43%, 88%);
+    margin-left:2rem;
+    margin-top:5%;
+}
+
+
+#tipPerPerson{
+    color: black;
+    font-size:45px;
+    text-align: right;
+    margin-right:2rem;
+    margin-top:5%;
+    }
+    
+    
+    
+    #finalPerPerson{
+    color:#cd9cdb;
+    
+    font-size: 45px;
+    text-align: right;
+    margin-right:2rem;
+    
+    }
+    
+    
+    #reset{
+    margin-left: 10rem;
+    background-color: hsl(180, 43%, 88%);
+    color: #cd9cdb;
+    border: none ;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
